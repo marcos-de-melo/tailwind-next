@@ -1,21 +1,21 @@
-import type { Config } from "tailwindcss";
+import type { Config } from 'tailwindcss'
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
       maxWidth: {
-        app: '700px'
+        app: '700px',
       },
       colors: {
-        diego: '#8257e6'
-      }
+        diego: '#8257e6',
+      },
     },
   },
   plugins: [],
-};
-export default config;
+}
+export default config
