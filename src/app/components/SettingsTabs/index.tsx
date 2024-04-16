@@ -52,6 +52,18 @@ export function SettingsTabs() {
           isSelected={currentTab === 'tab10'}
         />
       </Tabs.List>
+
+      {/* <Tabs.Content value="tab1">
+        <p>Make changes to your account.</p>
+      </Tabs.Content>
+
+      <Tabs.Content value="tab2">
+        <p>Access and update your documents.</p>
+      </Tabs.Content>
+
+      <Tabs.Content value="tab3">
+        <p>Edit your profile or update contact information.</p>
+      </Tabs.Content> */}
     </Tabs.Root>
   )
 }
