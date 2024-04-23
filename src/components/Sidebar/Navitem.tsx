@@ -1,7 +1,7 @@
 import { ChevronDown } from 'lucide-react'
 import { ElementType } from 'react'
 
-export interface NavitemProps {
+export interface NavItemProps {
   title: string
   icon: ElementType
 }
