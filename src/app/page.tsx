@@ -152,31 +152,36 @@ export default function Home() {
                 </Select>
 
                 <div className="flex items-center gap-1">
-                  <button
+                  <Button
+                    variant="ghost"
                     type="button"
                     className="rounded-md p-2 hover:bg-zinc-50"
                   >
                     <Bold className="h-4 w-4 text-zinc-500" strokeWidth={3} />
-                  </button>
-                  <button
+                  </Button>
+                  <Button
+                    variant="ghost"
                     type="button"
                     className="rounded-md p-2 hover:bg-zinc-50"
                   >
                     <Italic className="h-4 w-4 text-zinc-500" strokeWidth={3} />
-                  </button>
-                  <button
+                  </Button>
+                  <Button
+                    variant="ghost"
                     type="button"
                     className="rounded-md p-2 hover:bg-zinc-50"
                   >
                     <Link className="h-4 w-4 text-zinc-500" strokeWidth={3} />
-                  </button>
-                  <button
+                  </Button>
+                  <Button
+                    variant="ghost"
                     type="button"
                     className="rounded-md p-2 hover:bg-zinc-50"
                   >
                     <List className="h-4 w-4 text-zinc-500" strokeWidth={3} />
-                  </button>
-                  <button
+                  </Button>
+                  <Button
+                    variant="ghost"
                     type="button"
                     className="rounded-md p-2 hover:bg-zinc-50"
                   >
@@ -184,7 +189,7 @@ export default function Home() {
                       className="h-4 w-4 text-zinc-500"
                       strokeWidth={3}
                     />
-                  </button>
+                  </Button>
                 </div>
               </div>
 
